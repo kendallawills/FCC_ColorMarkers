@@ -1,3 +1,9 @@
+/* /* 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F Values for Hexadecimal Colors */
+
+/* With hex colors, 00 is 0% of that color, and FF is 100% */
+
+/* The CSS hsl function accepts 3 values: a number from 0 to 360 for hue, a percentage from 0 to 100 for saturation, and a percentage from 0 to 100 for lightness */
+
 h1 {
     text-align: center;
     background-color: rgb(0, 255, 255);
@@ -14,11 +20,13 @@ h1 {
 }
 
 .green {
-    background-color: rgb(0, 255, 0);
+    background-color: #00FF00;
+    /* rgb(0, 255, 0) */
 }
 
 .blue {
-    background-color: rgb(0, 0, 255);
+    background-color: hsl(240, 100, 50);
+    /* background-color: rgb(0, 0, 255); */
 }
 
 .container {
